@@ -1,4 +1,4 @@
-##  **Gênios da Ciência** (Desenvolvido durante a imersão dev da Alura 09/24)
+##  **Site Gênios da Ciência** (Desenvolvido durante a imersão dev da Alura 09/24)
 
 ###  **O que esse código faz?**
 
@@ -46,3 +46,5 @@ Com ele, você pode:
 **#ciência #programação #javascript #html #css #opensource**
 
 **Observação:** Para personalizar esse README, você pode adicionar mais detalhes sobre o projeto, como as tecnologias utilizadas, as dificuldades encontradas durante o desenvolvimento, etc.
+
+(veja a página no vercel)[https://genios-ciencia.vercel.app]
