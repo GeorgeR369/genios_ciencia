@@ -47,4 +47,4 @@ Com ele, você pode:
 
 **Observação:** Para personalizar esse README, você pode adicionar mais detalhes sobre o projeto, como as tecnologias utilizadas, as dificuldades encontradas durante o desenvolvimento, etc.
 
-(veja a página no vercel)[https://genios-ciencia.vercel.app]
+[Veja a página no vercel](https://genios-ciencia.vercel.app)
