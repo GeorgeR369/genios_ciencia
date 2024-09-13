@@ -21,6 +21,7 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     position: relative;
+    margin-top: 30px;
 }
 
 /* Estiliza as seções da página */
