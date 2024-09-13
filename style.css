@@ -6,14 +6,14 @@ body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
     background-color: #483D8b; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
+    display: flex;
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
-    display: flex;
-    padding-top: 50px;
-    podding-botton: 100px;
+    padding-top: 60px;
+    podding-botton: 120px;
     min-height: 100vh;
 }
 
@@ -24,7 +24,7 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     position: relative;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 /* Estiliza as seções da página */
@@ -72,6 +72,7 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+    flex: 1;
     z-index: 1
 }
 
@@ -116,9 +117,8 @@ footer {
     width: 100%; /* Largura total da página */
     position: sticky; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
-    left: 0;
     font-size: 1rem; /* Tamanho da fonte */
-    top: 100px;
+    top: 120px;
     
 }
 
