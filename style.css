@@ -11,7 +11,7 @@ body {
     justify-content: center; /* Centraliza os itens verticalmente */
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 /* Estiliza os títulos h1 */
