@@ -23,8 +23,8 @@ h1 {
     color: white; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    position: absolute;
-    margin-top: 0;
+    position: relative;
+    margin-top: 1rem;
 }
 
 /* Estiliza as seções da página */
@@ -72,8 +72,7 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
-    flex: 1;
-    z-index: 1
+    flex: 1
 }
 
 /* Estiliza cada item de resultado */
