@@ -6,7 +6,6 @@ body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
     background-color: #483D8b; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
-    display: flex;
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
@@ -24,7 +23,7 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     position: relative;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 /* Estiliza as seções da página */
