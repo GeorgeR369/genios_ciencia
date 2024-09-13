@@ -69,6 +69,8 @@ section button:hover {
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+    z-index: 1;
+    position: relative;
 }
 
 /* Estiliza cada item de resultado */
@@ -78,7 +80,6 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 3rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    position: relative;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
