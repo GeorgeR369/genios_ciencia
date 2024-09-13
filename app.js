@@ -21,23 +21,26 @@ function pesquisar() {
   let titulo = "";
   let tag = "";
     // Itera sobre cada elemento (dado) do array 'dados'.
-    for (let dado of dados) {
+    for (let dado of dados) 
+    {
       descricao = dado.descricao.toLowerCase()
       titulo = dado.titulo.toLowerCase()
       tag = dado.tag
-      if(titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tag.includes(campoPesquisa)){
+        if(titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tag.includes(campoPesquisa))
+      {
         console.log(dado.titulo.includes("campoPesquisa"))
          // Constrói o HTML para cada resultado, utilizando template literals para facilitar a criação de strings de HTML dinâmicas.
-         resultados += `
+        resultados += `
             <div class="item-resultado">
               <h2><a href="#" target="_blank">${dado.titulo}</a></h2>
               <p class="descricao-meta">${dado.descricao}</p>
               <a href=${dado.link} target="_blank">Acesse a wiki</a>
             </div>`;  
-          }
-          if(!resultados){
-            resultados = "<p>Nenhum resultado encontrado</p>"
-          }
+      }
+    }
+        if(!resultados)
+        {
+        resultados = "<p>Nenhum resultado encontrado</p>"
         }
 // Atribui o HTML construído ao conteúdo interno (innerHTML) da seção de resultados, substituindo o conteúdo anterior.  
 section.innerHTML = resultados;
