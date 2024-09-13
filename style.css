@@ -11,7 +11,8 @@ body {
     justify-content: center; /* Centraliza os itens verticalmente */
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
-    padding-top: 70px;
+    display: flex;
+    padding-top: 50px;
 }
 
 /* Estiliza os títulos h1 */
@@ -21,7 +22,8 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     position: relative;
-    margin-top: 30px;
+    margin-top: 0;
+    
 }
 
 /* Estiliza as seções da página */
