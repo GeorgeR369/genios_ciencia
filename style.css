@@ -23,7 +23,7 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     position: absolute;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /* Estiliza as seções da página */
@@ -44,6 +44,8 @@ section input {
     color: #45474B; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
+    position: relative;
+    
 }
 
 /* Estiliza os botões dentro das seções */
@@ -55,6 +57,7 @@ section button {
     color: #F5F7F8; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    position: relative;
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
