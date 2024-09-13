@@ -23,7 +23,7 @@ h1 {
     color: white; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    position: relative;
+    position: absolute;
     margin-top: 0;
 }
 
