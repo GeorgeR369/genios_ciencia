@@ -13,6 +13,8 @@ body {
     margin: 0; /* Remove a margem padrão */
     display: flex;
     padding-top: 50px;
+    podding-botton: 100px;
+    min-height: 100vh;
 }
 
 /* Estiliza os títulos h1 */
@@ -22,8 +24,7 @@ h1 {
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     position: relative;
-    margin-top: 0;
-    
+    margin-top: 2rem;
 }
 
 /* Estiliza as seções da página */
@@ -117,6 +118,8 @@ footer {
     bottom: 0; /* Alinha ao fundo da página */
     left: 0;
     font-size: 1rem; /* Tamanho da fonte */
+    top: 100px;
+    
 }
 
 @media (max-width: 768px) {
